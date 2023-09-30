@@ -1,0 +1,25 @@
+body {
+    font-family: 'Raleway', sans-serif;
+    background: linear-gradient(135deg, #f7f8fc, #acdbdf);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    background: rgba(255, 255, 255, 0.9);
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+}
+
+.btn-gradient {
+    background: linear-gradient(135deg, #6EE7B7, #3BA4D6);
+    color: white;
+    border: none;
+}
+
+blockquote {
+    font-family: 'Zilla Slab', serif;
+}

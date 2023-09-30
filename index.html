@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Quote Generator</title>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&family=Zilla+Slab:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" />
+    <link rel="stylesheet" href="styles.css">
+  </head>
+
+  <body>
+    <div class="container mt-5">
+      <h1 class="text-center mb-4">AI Quote Generator</h1>
+      <h3 class="text-center mb-4">Discover Quotes, Shape Moments.</h3>
+
+      <div class="d-flex justify-content-center mb-3">
+        <label for="mood" class="mr-2 align-self-center">Select your mood:</label>
+        <select id="mood" class="custom-select w-auto">
+          <option value="happy">Happy</option>
+          <option value="sad">Sad</option>
+          <option value="motivated">Motivated</option>
+          <option value="tired">Tired</option>
+          <option value="random">Random</option>
+        </select>
+      </div>
+
+      <div class="d-flex justify-content-center">
+        <button id="getQuoteBtn" class="btn btn-gradient">Generate Quote</button>
+      </div>
+
+      <div class="quote-section mt-4 text-center" data-aos="fade-up">
+        <blockquote class="blockquote">
+          <p id="quote"></p>
+          <footer class="blockquote-footer" id="author"></footer>
+        </blockquote>
+      </div>
+    </div>
+
+    <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+
+    </script>
+  </body>
+
+</html>
