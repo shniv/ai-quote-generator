@@ -16,7 +16,7 @@ tags:
 
 Discover quotes and shape your moments. A web application to generate personalized quotes based on your mood.
 
-![Main Screenshot](path/to/main-screenshot.png)
+![Main Screenshot](/images/main-screenshot.png)
 
 ## Table of Contents
 1. [Features](#features)
@@ -31,7 +31,7 @@ Discover quotes and shape your moments. A web application to generate personaliz
 - Sleek and Modern Design: Designed for a seamless user experience.
 - Fully Responsive: Adapts to any screen size.
 
-![Feature Screenshot](path/to/feature-screenshot.png)
+![Feature Screenshot](/images/feature-screenshot.png)
 
 ## Setup & Installation
 
@@ -51,7 +51,7 @@ cd ai-quote-generator
 ## Usage
 Simply select your current mood from the dropdown and click on "Generate Quote" to receive a personalized quote. You can also select the "Random" mood for a surprise quote!
 
-![Feature Screenshot](path/to/usage-screenshot.png)
+![Feature Screenshot](images/usage-screenshot.png)
 
 ## Contributing
 Feel free to fork this project, submit PRs, and contribute in any way you'd like. All contributions are welcome!
